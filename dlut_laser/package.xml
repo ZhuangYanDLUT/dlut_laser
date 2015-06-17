@@ -1,0 +1,28 @@
+<package>
+  <name>dlut_laser</name>
+  <version>0.0.0</version>
+  <description>ROS Nodes developed on SmartROB at DaLian University Of Technology.</description>
+
+
+  <author email="zhuang@dlut.edu.cn">Zhuang Yan</author>
+  <author>Yan Fei</author>
+  <author>Wu Nai Liang</author>
+
+  <maintainer email="zhuang@dlut.edu.cn">Zhuang Yan</maintainer>
+  <maintainer email="wunailiang@gmail.com">Wu Nai Liang</maintainer>
+  <license>BSD</license>
+  
+  <url type="website">http://www.ros.org/wiki/dlut_laser</url>
+  <url type="repository">https://github.com/ZhuangYanDLUT/dlut_laser.git</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <!-- Old stack contents -->
+  <run_depend>dlut_hash_icp</run_depend>
+  <run_depend>dlut_place_recognition</run_depend>
+  <run_depend>pointcloud2pcd</run_depend>
+  <export>
+    <metapackage/>
+  </export>
+
+</package>
